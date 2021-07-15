@@ -7,8 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) => {
   res.json({
     title: "Hello Docker",
-    code: 200,
-    message: process.env.WELCOME_MESSAGE ? process.env.WELCOME_MESSAGE : "none",
+    code: 404,
   });
 });
 
